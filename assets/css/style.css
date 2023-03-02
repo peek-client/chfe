@@ -1,0 +1,141 @@
+/* Monokai color scheme */
+body {
+    background-image: url(https://64.media.tumblr.com/e997878e41408f130958851cdaa0b5dc/tumblr_on394byrlu1v5vnhxo1_500.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F8F8F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #A6E22E;
+}
+
+/* Links */
+a {
+    color: #66D9EF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F92672;
+}
+
+/* Buttons */
+button {
+    background-color: #66D9EF;
+    color: #272822;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F92672;
+    color: #F8F8F2;
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #272822;
+    color: #F8F8F2;
+}
+
+input[type="submit"] {
+    background-color: #66D9EF;
+    color: #272822;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #F92672;
+    color: #F8F8F2;
+}
+
+/* Code blocks */
+pre {
+    background-color: #272822;
+    color: #F8F8F2;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+code {
+    color: #A6E22E;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #66D9EF;
+}
+
+th {
+    background-color: #A6E22E;
+    color: #272822;
+}
+
+tr:nth-child(even) {
+    background-color: #272822;
+}
+
+tr:hover {
+    background-color: #66D9EF;
+}
+
+img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px 7px rgba(255, 255, 255, 0.8);
+}
+
+/* Alerts */
+.alert {
+    background-color: #F92672;
+    color: #F8F8F2;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.alert-success {
+    background-color: #A6E22E;
+}
+
+.alert-warning {
+    background-color: #FD971F;
+}
+
+.alert-info {
+    background-color: #66D9EF;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
